@@ -1,0 +1,15 @@
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
+php_flag  log_errors off
+php_value error_log  /home/viller_m/rendu/PHP_my_meetic/PHP_errors.log
+
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+Options +FollowSymLinks
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php/$1 [L]

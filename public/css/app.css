@@ -1,0 +1,126 @@
+/* Layout */
+body {
+  background: #f3f3f3; }
+
+a {
+  color: #48a9d0;
+  text-decoration: none;
+  line-height: inherit;
+  outline: none; }
+
+ul {
+  list-style: none; }
+
+img {
+  width: 100%; }
+
+.header-wrap {
+  background: url(../img/bg-header.png);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: " "; }
+
+/* Module */
+.site-header {
+  background: #fff;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  z-index: 100; }
+
+.site-header, .header-menu ul ul {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); }
+
+.header-form:after, .listed-story .story-text, .site-header, .site-footer {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px; }
+
+header-menu ul {
+  margin: 0.5em 0; }
+
+.header-menu div > ul > li {
+  float: left;
+  margin: -0.3em 0 -0.5em 0;
+  padding-bottom: 0.5em; }
+
+.header-menu a {
+  display: block;
+  padding: 0.4em 11px 0.5em 11px;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  color: #333; }
+
+#desc {
+  width: 40%;
+  color: #FFF;
+  text-shadow: 2px 2px 2px #969696; }
+  #desc h2 {
+    margin-top: 44px;
+    text-shadow: 2px 2px 2px #969696; }
+
+#img {
+  background-image: url(../img/image-1.png);
+  height: 400px;
+  width: 60%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.panel-top {
+  border: solid 1px #48a9d0;
+  background: rgba(72, 169, 208, 0.3);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px; }
+  .panel-top h1 {
+    margin: 0;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1); }
+
+.content {
+  background: #fff;
+  padding: 3em 29px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom-width: 0;
+  border-top-width: 0; }
+  .content .search {
+    border: 1px solid rgba(72, 169, 208, 0.3);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    display: block;
+    width: 100%; }
+    .content .search h2 {
+      margin: 0;
+      padding: 0;
+      background-color: rgba(72, 169, 208, 0.8);
+      padding-left: 20px; }
+
+.caption h2 {
+  font-size: 25px; }
+
+.ville, .region, .departement, .pays, .age, .sexe {
+  display: none; }
+
+.btn {
+  text-shadow: 2px 2px 2px #969696; }
+
+/* Screen */

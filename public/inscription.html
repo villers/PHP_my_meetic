@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Login page - Typica</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Responsive HTML template for Your company">
+	<meta name="author" content="Oskar Żabik (oskar.zabik@gmail.com)">
+
+	<!-- Le styles -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-7">
+				<div class="panel panel-default" id="login">
+					<div class="panel-heading">
+						<strong>Connexion</strong>
+					</div>
+					<div class="panel-body">
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+								<label for="cemail" class="col-sm-3 control-label">Email</label>
+								<div class="col-sm-9">
+									<input type="email" class="form-control" id="cemail" placeholder="Email / Pseudo" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="cpassword" class="col-sm-3 control-label">Password</label>
+								<div class="col-sm-9">
+									<input type="password" class="form-control" id="cpassword" placeholder="Password" required>
+								</div>
+							</div>
+							<div class="form-group last">
+								<div class="col-sm-offset-3 col-sm-9">
+									<button type="submit" class="btn btn-success btn-sm">Connecte toi</button>
+									<button type="reset" class="btn btn-default btn-sm">Reset</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="panel-footer">
+						Pas enregistré? <a href="#" id="toregister">Inscris toi</a>
+					</div>
+				</div>
+
+				<div class="panel panel-default" id="register">
+					<div class="panel-heading">
+						<strong>Inscription</strong>
+					</div>
+					<div class="panel-body">
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+								<label for="rpseudo" class="col-sm-3 control-label">Pseudo</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" id="rpseudo" placeholder="Pseudo" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="rnom" class="col-sm-3 control-label">Nom</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" id="rnom" placeholder="Nom" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="rprenom" class="col-sm-3 control-label">Prénom</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" id="rprenom" placeholder="Prénom" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="rbirthday" class="col-sm-3 control-label">Anniversaire</label>
+								<div class="col-sm-9">
+									<input type="date" class="form-control" id="rbirthday" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="rville" class="col-sm-3 control-label">Ville</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" id="rville" placeholder="Lyon" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="rdep" class="col-sm-3 control-label">Département</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" id="rdep" placeholder="Haut-Rhin" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="rregion" class="col-sm-3 control-label">Région</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" id="rregion" placeholder="Alsace" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="rpays" class="col-sm-3 control-label">Pays</label>
+								<div class="col-sm-9">
+									<input type="text" class="form-control" id="rpays" placeholder="France" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="remail" class="col-sm-3 control-label">Email</label>
+								<div class="col-sm-9">
+									<input type="email" class="form-control" id="remail" placeholder="Email" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="rpassword" class="col-sm-3 control-label">Password</label>
+								<div class="col-sm-9">
+									<input type="password" class="form-control" id="rpassword" placeholder="Password" required>
+								</div>
+							</div>
+							<div class="form-group last">
+								<div class="col-sm-offset-3 col-sm-9">
+									<button type="submit" class="btn btn-success btn-sm">Connecte toi</button>
+									<button type="reset" class="btn btn-default btn-sm">Reset</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="panel-footer">
+						Déjà enregistré? <a href="#" id="tologin">Connecte toi</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Le javascript -->
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery.velocity.min.js"></script>
+	<script src="js/velocity.ui.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>
