@@ -73,7 +73,7 @@ class Account extends Controller {
 			$mail->Host = 'smtp.gmail.com';
 			$mail->Port = 587;
 			$mail->Username = "villers.mickael@gmail.com";
-			$mail->Password = "en7m75zj";
+			$mail->Password = "****";
 
 			$mail->setFrom('villers.mickael@gmail.com', 'My Meetic');
 			$mail->addAddress($_POST["remail"], $_POST["rpseudo"]);
